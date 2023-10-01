@@ -28,6 +28,7 @@ body {
 
 .group__header {
     font-size: 1.5rem;
+    padding-top: 1rem;
 }
 
 .group__text {
@@ -79,7 +80,7 @@ header {
     font-size: 0.9rem;
     padding: 1rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.44rem;
     letter-spacing: 0.5px;
     transition: all 200ms ease;
 }
@@ -115,7 +116,7 @@ header {
     background-color: #1e232e;
     padding: 1rem 0.5rem;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 7.16px;
 }
 
 .group2 p {
@@ -174,7 +175,17 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    border-radius: 10px;
+    border-radius: 7.16px;
+    animation: scaler 700ms ease-in-out forwards;
+}
+
+@keyframes scaler {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 /* media queries */
@@ -220,12 +231,12 @@ header {
         padding: 1rem;
     }
     .group2 {
-        flex-basis: 50%;
+        flex-basis: 48%;
         /* height: 39.6rem; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 5rem 2rem 3rem;
+        padding: 5rem 2rem;
     }
     .thank-you section {
         width: 70%;

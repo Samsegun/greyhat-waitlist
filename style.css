@@ -33,7 +33,7 @@ body {
 .group__text {
     color: #e6e6e6;
     font-size: 0.9rem;
-    line-height: 1.5rem;
+    line-height: 1.4535rem;
     opacity: 0.9;
 }
 /* reusable styles */
@@ -220,6 +220,9 @@ header {
     }
     .group__header {
         font-size: 2.5rem;
+    }
+    .group__text {
+        width: 85%;
     }
     .group__text.form__text {
         width: 80%;

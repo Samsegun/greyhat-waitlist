@@ -7,7 +7,15 @@
 }
 
 body {
-    background-color: #141b2d;
+    background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.2) 0%,
+            rgba(0, 0, 0, 0.2) 100%
+        ),
+        linear-gradient(251deg, rgba(60, 243, 255, 0.2) -15.03%, #151a25 44.63%),
+        linear-gradient(119deg, rgba(60, 124, 255, 0.2) 31.11%, #151a25 42.69%),
+        #151a25;
+    background-blend-mode: normal, screen, screen, normal;
     font-family: "Mulish", sans-serif;
     color: #fff;
 }
@@ -35,6 +43,7 @@ body {
 }
 
 header {
+    background-color: #141b2d;
     border-bottom: 1px solid #ffffff36;
 }
 
@@ -103,7 +112,7 @@ header {
 }
 
 .group2 {
-    background-color: #1f2940;
+    background-color: #1e232e;
     padding: 1rem 0.5rem;
     text-align: center;
     border-radius: 10px;
@@ -128,7 +137,7 @@ header {
 }
 
 .group2 form input {
-    background: #2b3858;
+    background: #282c36;
     color: #fff;
     width: 100%;
     margin-bottom: 0.5rem;

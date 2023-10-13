@@ -169,6 +169,8 @@ header {
 .thank-you section {
     background-color: #1e232e;
     width: 90%;
+    max-width: 800px;
+    max-height: 800px;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -177,6 +179,15 @@ header {
     gap: 1rem;
     border-radius: 7.16px;
     animation: scaler 700ms ease-in-out forwards;
+}
+
+.thank-you section h1 {
+    text-align: center;
+}
+
+.thank-you section h1 span {
+    display: block;
+    margin-top: 1rem;
 }
 
 @keyframes scaler {
